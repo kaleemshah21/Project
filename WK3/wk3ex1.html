@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>HTML form submitted to php file</title>
+</head>
+<body>
+
+<!-- form that sends data to wk3ex1action.php using the post method -->
+<form action="wk3ex1action.php" method="post">
+   
+   <!-- text input field for the user to enter their name -->
+   Enter your name
+   <input type="text" name="txtname" size="30"/><br/><br/>
+   
+   <!-- radio buttons for selecting gender -->
+   Gender
+   <input type="radio" name="radsex" value="male" />Male
+   <input type="radio" name="radsex" value="female" />Female
+   <input type="radio" name="radsex" value="other" />Other <br/><br/>
+   
+   <!-- dropdown menu for selecting occupation -->
+   Occupation
+   <select name="seloccupation">
+		<option>Lecturer</option>
+		<option>Beach Bum</option>
+		<option>Traffic Warden</option>
+   </select><br/><br/>
+   
+   <!-- submit button to send the form data -->
+   <input type="submit" value="display">
+</form>
+
+</body>
+</html>
